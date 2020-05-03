@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exam">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Examination Scheme :"
+        android:id="@+id/text1"
+        android:textSize="28dp"
+
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/text2"
+        android:layout_below="@id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+
+        android:layout_marginLeft="40dp"
+
+        android:text="Internal Assesment (IA)"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/t1"
+        android:layout_below="@id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginLeft="320dp"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/text3"
+        android:layout_below="@id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In Course Examination (ICE)"
+        android:textSize="18dp"
+        android:layout_marginLeft="40dp"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/t2"
+        android:layout_below="@id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginLeft="320dp"
+        />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_below="@id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Course Examination (ECE)"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        />
+    <TextView
+        android:id="@+id/t3"
+        android:layout_below="@id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="320dp"
+        />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_below="@id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practical"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        />
+    <TextView
+        android:id="@+id/t4"
+        android:layout_below="@id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="320dp"
+        />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_below="@id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project Demonstration"
+        android:textSize="18dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_below="@id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="320dp"
+        />
+
+</RelativeLayout>
