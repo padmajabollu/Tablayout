@@ -1,0 +1,241 @@
+<resources>
+    <string name="app_name">Tablayout Subjects Retrofit</string>
+
+    <string-array name="subject" id="id1">
+        <item>MAD</item>
+        <item>CT</item>
+        <item>OS</item>
+    </string-array>
+
+    <string-array name="Exam_Mad">
+
+        <item>30</item>
+        <item>30</item>
+        <item>40</item>
+        <item>NIL</item>
+        <item>50</item>
+
+    </string-array>
+    <string-array name="Content_Mad">
+        <item>Unit I : Introduction to Java</item>
+        <item>Content of Unit I :
+        Basics of java programing, string processing, multithreading, and input-output, object oriented concept:
+inheritance, encapsulation and polymorphism. Interfaces, collections and Exception handling.</item>
+        <item>Unit II : The Android Platform</item>
+        <item>Content of Unit II :
+    Introduction to the Android platform, Application framework, Basic Building blocks, Broadcast Receivers and
+Content providers, UI Components, Intents and Intent Filters, Android API levels, AVD and the Android
+Studio IDE.
+        </item>
+        <item>Unit III : User Interface design</item>
+        <item>
+        Content of Unit III :
+            UI Design: Activities, Views, layouts and Common UI components, UI through code and XML, Activity
+lifecycle, Intents, communication among activities, Menus, Custom and compound Views, Notifications, UI
+Events, Event Listeners.
+        </item>
+        <item>Unit IV : Intent, Broadcast Receivers and Sensors</item>
+        <item>
+            Content of Unit IV :
+            Explicit Intents, Implicit intents, Role of filters, Intent-matching rules, Filters in manifest and in dynamic
+Broadcast Receivers, Creating Broadcast receiver, Receiving System Broadcast, Understanding
+Broadcast action, category and data, Sending Broadcast. Sensors: Finding sensors, Accelerometers,Gyroscopes, Other type.
+        </item>
+        <item>Unit V : Android Data Storage</item>
+        <item>
+            Content of Unit V :
+            Android File System, Internal storage, External storage, SQLite, Introducing SQLite, SQLite Open Helper
+and CRUD operations, Content Providers: Accessing built in content providers, and Content provider
+MIME types, searching, Adding, changing, and removing contents.
+        </item>
+        <item>
+            Unit VI : Hybrid App Development
+        </item>
+        <item>
+            Content of Unit VI :
+            Introduction to Hybrid Applications, Benefits, Challenges,
+            Power of Hybrid over Mobile Web, Architectural
+            approaches, Mobile Hybrid Application development framework.
+        </item>
+    </string-array>
+
+    <string-array name="Practical_Mad">
+        <item>Practical No. 1 : Tic-Tac-Toe game</item>
+        <item>Practical No. 2 : Calculator APP</item>
+        <item>Practical No. 3 : Design Tab Layout</item>
+        <item>Practical No. 4 : Design List Layout</item>
+        <item>Practical No. 5 : Create database storage</item>
+        <item>Practical No. 6 : Create a Hybrid app which can be run on any platform</item>
+
+    </string-array>
+    <string-array name="Practical_Content_Mad">
+        <item>Extend the programing written in practical no 1 and provide UI using android and run it in android virtual
+device.</item>
+        <item>Create a simple calculator application in android and run it in real device.</item>
+        <item>Design a tab layout for android device and show course infromation in each tab. (Exam Scheme, Content,
+Practical List)</item>
+        <item>Extend the practical no. 4 and add list layout for different courses after clicking on course display the
+course information in tab layout as done in practical no. 4</item>
+        <item>For practical no. 5 provide the backend support for data storage and store all the course information in
+database, also provide a functionality to edit the course content in application.</item>
+        <item>Create a hybrid app for the practical no.6 using any hybrid app framework</item>
+    </string-array>
+    <string-array name="Exam_Ct">
+
+        <item>30</item>
+        <item>30</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+
+    </string-array>
+    <string-array name="Content_Ct">
+        <item>Unit I : Finite Automata</item>
+        <item>Content of Unit I :
+            Definition of Automata, Types of Automata, Languages, Finite Automata, Deterministic Finite Automata, Non
+Deterministic Finite Automata, Non Deterministic Finite Automata with epsilon transition, Conversion between NFA
+to DFA, Conversion between epsilon NFA to NFA,
+Self-Study: Finite Automata with output: Mealy and Moore Machine and their Conversion.
+       </item>
+        <item>Unit II : Regular Expression and Languages</item>
+        <item>Content of Unit II :
+Language classification, Regular Languages, Closure Properties of Regular Language, Regular Expression,
+Properties of Regular Expression. Conversion between RE and Finite Automata, Relation between Languages.
+Self-study: Pumping Lema for Regular Language.
+        </item>
+        <item>Unit III : Grammars and Context free Grammar</item>
+        <item>
+        Content of Unit III :
+            Formal Definition of Grammar, Phrase structure grammar, Chomsky hierarchy, context free grammar, Parse Trees,
+Ambiguity in grammars and their removal, Simplification of Grammar-removal of unit production, useless production,
+useless symbol,
+Self- study: Normal forms-Chomsky normal form and greibach normal form.
+        </item>
+        <item>Unit IV : Pushdown automata and Context free Language</item>
+        <item>
+            Content of Unit IV :
+            Definition, deterministic, pushes down automata(DPDA), non-deterministic push down automata(NPDA), the
+language of PDA. Equivalence of PDA’s and CFG’s, Concept of post machines. CFL- Properties, normal forms,
+Pumping lemma of CFL,
+Self- study: Post Machine
+             </item>
+        <item>Unit V : Turing Machine</item>
+        <item>
+            Content of Unit V :
+Definition and example of TM, computing a partial function with TM, combining TM’s variations of TM: Multi-tape
+TM’s, universal TM, model of computation and church’s turing hypothesis, unsolvable problem,
+Self- study: TM’s halting problem.
+        </item>
+        <item>
+            Unit VI : Decidability and Un Decidability
+        </item>
+        <item>
+            Content of Unit VI :
+Church’s Thesis, Decidable Problems Concerning Regular and Context-Free Languages, Un decidability of the
+Halting Problem, Formal Definition of Reducibility as Many-One Reducibility, Examples of Many-One Reducibility
+between Problems.
+Self-study: Diagonalization
+        </item>
+    </string-array>
+
+    <string-array name="Practical_Ct">
+        <item>Practical No. 1 : Vending Machine</item>
+        <item>Practical No. 2 : Word Recognition</item>
+        <item>Practical No. 3 : Dictionary lookup</item>
+        <item>Practical No. 4 : Compiler for Calculator</item>
+        <item>Practical No. 5 : Compiler for conditional statements</item>
+        <item>Practical No. 6 : 2’s Complement</item>
+
+    </string-array>
+    <string-array name="Practical_Content_Ct">
+        <item>Design and Develop the DFA for the vending machine which accepts Rupees, and charges 100Rs per soda. Once
+the machine receives at least 100Rs, it will allow the user to select a soda. Self-loops represent ignored input: the
+machine will not dispense a soda until at least 100Rs has been deposited, and it will not accept more money once it
+has already received greater than or equal to 100Rs.
+To express the DFA as a 5-tuple, the components are defined as follows:
+1. Q = {00Rs,25Rs,50Rs,75Rs,100Rs,125Rs,150Rs,175Rs,200Rs} are the states
+2. Σ = {25Rs,100Rs,select} is the alphabet
+3. δ, the transition function, is described by the state diagram.
+4. q0 = 00Rs is the start state
+5. F = ∅ is the set of accept states</item>
+        <item>Design and Develop DFA for word recognizer takes a string of characters as input and returns “yes” or “no”
+according as the word is or is not in a given set. It Solves the membership problem for the below statements.
+1. All strings of a’s and b’s in which equal no of a’s followed by b’s.
+2. All strings of a’s and b’s in which first and last symbols are same.
+3. All strings of a’s and b’s in which no of a’s are divisible by 2.</item>
+        <item>Dictionary lookup takes a string of characters as input and returns “yes” or “no” according as the word is or is not in
+a given set and returns information about the word. Students needs to create the files of words</item>
+        <item>Design and develop (Grammar, Regular expression) for Calculator using Lex and Yacc.</item>
+        <item>Design and develop (Grammar, Regular expression) for any Conditional statements of C Programming Language
+usingLex and Yacc.</item>
+        <item>Design and develop Automata to find 2’s complement of binary number.</item>
+    </string-array>
+
+    <string-array name="Exam_Os">
+
+        <item>30</item>
+        <item>30</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+
+    </string-array>
+    <string-array name="Content_Os">
+        <item>Unit I : Introduction to Operating System</item>
+        <item>Content of Unit I :
+        Introduction to Operating Systems, Hardware support for Operating System, Resource management, operating
+system architectures. Case Study: History and Architecture of operating system.</item>
+        <item>Unit II : Shell Programming</item>
+        <item>Content of Unit II :
+        Introduction, Role of Shell, Types of Shells ,File and Directory-related Commands, communication in Unix,Vi Editor,
+Shell Scripts, Programming Constructs in Shell.
+        </item>
+        <item>Unit III : Process Management</item>
+        <item>
+        Content of Unit III :
+Fundamentals of Process management, Process Scheduling, Process communication and Synchronization,
+Deadlock, Multithreading.        </item>
+        <item>Unit IV : Memory Management</item>
+        <item>
+            Content of Unit IV :
+The Buffer Cache: Buffer Headers, Structure of the Buffer Pool, Scenarios for Retrieval of a buffer, Reading and
+Writing Disk Block, Advantages and Disadvantages of Buffer Cache. Files: Inodes, Structure of Regular File,
+Directories, Conversion of a Path Name to an Inode.        </item>
+        <item>Unit V : I/O Management</item>
+        <item>
+            Content of Unit V :
+          Driver Interfaces, Disk Drivers, Terminal Drivers, Streams, Computer system operation, I/O structure, storage
+structure, storage hierarchy, different types of protections, operating system structure (simple, layered, virtual
+machine), O/S services, Disk Scheduling and Management</item>
+        <item>
+            Unit VI : Advanced Operating Systems
+        </item>
+        <item>
+            Content of Unit VI :
+           Distributed Operating System, Multi-processor Operating System, Real Time Operating System, Mobile operating
+System, Multimedia Operating System, Virtualization. </item>
+    </string-array>
+
+    <string-array name="Practical_Os">
+        <item>Practical No. 1 </item>
+        <item>Practical No. 2 </item>
+        <item>Practical No. 3 </item>
+        <item>Practical No. 4 </item>
+        <item>Practical No. 5 </item>
+
+    </string-array>
+    <string-array name="Practical_Content_Os">
+        <item>Given the list of processes, their CPU burst times and arrival times, Display /print the Gantt chart for FCFS and SJF.
+For each of the scheduling policies, compute and print the average waiting time and average turnaround time.</item>
+<item>Develop Application using Inter Process communication (using shared memory, pipes or message queues)</item>
+<item>Multi-threaded coin flipping: You have 20 coins on the table lying in a row.P persons flip all coins on the table N
+times. Write a program that emulates this by using threads, one thread emulating one person. By default, there are
+P= 100 persons and each person flips each coin N = 10000 times. Provide command line options that allow
+controlling the number of persons and the number of coin flips per person.</item>
+
+          <item>Develop Application to simulate producer - consumer problem using Semaphores.</item>
+        <item>Design and Implementation of a File system</item>
+            </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
