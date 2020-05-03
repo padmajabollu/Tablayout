@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Course Information</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <string-array name="Exam">
+
+        <item>30</item>
+        <item>30</item>
+        <item>40</item>
+        <item>NIL</item>
+        <item>50</item>
+
+    </string-array>
+    <string-array name="Content">
+        <item>Unit I : Introduction to Java</item>
+        <item>Content of Unit I :
+        Basics of java programing, string processing, multithreading, and input-output, object oriented concept:
+inheritance, encapsulation and polymorphism. Interfaces, collections and Exception handling.</item>
+    <item>Unit II : The Android Platform</item>
+        <item>Content of Unit II :
+    Introduction to the Android platform, Application framework, Basic Building blocks, Broadcast Receivers and
+Content providers, UI Components, Intents and Intent Filters, Android API levels, AVD and the Android
+Studio IDE.
+        </item>
+        <item>Unit III : User Interface design</item>
+        <item>
+        Content of Unit III :
+            UI Design: Activities, Views, layouts and Common UI components, UI through code and XML, Activity
+lifecycle, Intents, communication among activities, Menus, Custom and compound Views, Notifications, UI
+Events, Event Listeners.
+        </item>
+        <item>Unit IV : Intent, Broadcast Receivers and Sensors</item>
+        <item>
+            Content of Unit IV :
+            Explicit Intents, Implicit intents, Role of filters, Intent-matching rules, Filters in manifest and in dynamic
+Broadcast Receivers, Creating Broadcast receiver, Receiving System Broadcast, Understanding
+Broadcast action, category and data, Sending Broadcast. Sensors: Finding sensors, Accelerometers,Gyroscopes, Other type.
+        </item>
+        <item>Unit V : Android Data Storage</item>
+        <item>
+            Content of Unit V :
+            Android File System, Internal storage, External storage, SQLite, Introducing SQLite, SQLite Open Helper
+and CRUD operations, Content Providers: Accessing built in content providers, and Content provider
+MIME types, searching, Adding, changing, and removing contents.
+        </item>
+        <item>
+            Unit VI : Hybrid App Development
+        </item>
+        <item>
+            Content of Unit VI :
+            Introduction to Hybrid Applications, Benefits, Challenges,
+            Power of Hybrid over Mobile Web, Architectural
+            approaches, Mobile Hybrid Application development framework.
+        </item>
+    </string-array>
+
+    <string-array name="Practical">
+        <item>Practical No. 1 : Tic-Tac-Toe game</item>
+        <item>Practical No. 2 : Calculator APP</item>
+        <item>Practical No. 3 : Design Tab Layout</item>
+        <item>Practical No. 4 : Design List Layout</item>
+        <item>Practical No. 5 : Create database storage</item>
+        <item>Practical No. 6 : Create a Hybrid app which can be run on any platform</item>
+
+    </string-array>
+    <string-array name="Practical_Content">
+        <item>Extend the programing written in practical no 1 and provide UI using android and run it in android virtual
+device.</item>
+        <item>Create a simple calculator application in android and run it in real device.</item>
+        <item>Design a tab layout for android device and show course infromation in each tab. (Exam Scheme, Content,
+Practical List)</item>
+        <item>Extend the practical no. 4 and add list layout for different courses after clicking on course display the
+course information in tab layout as done in practical no. 4</item>
+        <item>For practical no. 5 provide the backend support for data storage and store all the course information in
+database, also provide a functionality to edit the course content in application.</item>
+        <item>Create a hybrid app for the practical no.6 using any hybrid app framework</item>
+    </string-array>
+</resources>
